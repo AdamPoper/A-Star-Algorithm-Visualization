@@ -30,7 +30,7 @@ function draw() {
 		updateOpen();
 	if(startNode > -1 && targetNode > -1 && !found && open.length > 0)
 	{
-		selectionSort();
+		selectionSort();   // can use either selection or bubble sort
 		//bubbleSort();
 		currentNode = open[0];  // assign currentNode to the node with the lowest f cost
 		open.shift();  // removes current from the open list
