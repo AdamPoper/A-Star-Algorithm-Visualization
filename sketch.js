@@ -178,7 +178,7 @@ function bubbleSort(){   // literally the worst sorting algorithm CHANGE!!!
 		}
 	}
 }
-function selectionSort(){
+function selectionSort(){    // a little better than bubble sort
 	let min_idx;
 	for(let i = 0; i < open.length-1; i++){
 		min_idx = i;
